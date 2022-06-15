@@ -3,7 +3,7 @@ import './footer.css';
 import {GrFacebookOption} from 'react-icons/gr';
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {FaLinkedin} from 'react-icons/fa';
-import Experience from '../Experience/Experience';
+
 
 
 function Footer() {
