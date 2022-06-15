@@ -1,14 +1,15 @@
 import React from 'react';
 import './portfolio.css';
 import Example from '../Files/example.jpg';
-import Example2 from '../Files/example2.jpg'
+import Example2 from '../Files/example2.jpg';
+import portfolio_avi from '../Files/portfolio_avi.png'
+import weather_app from '../Files/weather_app.png'
+
 function Portfolio() {
 const data = [
-  {id:1,image:Example,title:"Project 1",github:'https://www.github.com', demo:"#"},
-  {id:2,image:Example,title:"Project 2",github:'https://www.github.com', demo:"#"},
-  {id:3,image:Example,title:"Project 3",github:'https://www.github.com', demo:"#"},
-  {id:4,image:Example2,title:"Project 4",github:'https://www.github.com', demo:"#"},
-  {id:5,image:Example,title:"Project 5",github:'https://www.github.com', demo:"#"}
+  {id:1,image:portfolio_avi,title:"Portfolio",github:'https://github.com/Avi-jaiz/avishekh-portfolio', demo:"https://avishekh-portfolio.netlify.app/"},
+  {id:2,image:weather_app,title:"Weather App",github:'https://github.com/Avi-jaiz/Weather-app', demo:"https://green-weather-app.netlify.app/"},
+ 
 ]
 
   return (
@@ -27,8 +28,8 @@ const data = [
         <h3>{title}</h3>
         
         <div className="portfolio__item-cta">
-        <a href="https://github.com" target='_blank'className='btn'>Github</a>
-        <a href="#" target='_blank'className='btn btn-primary'>Live Demo</a>
+        <a href={github} target='_blank'className='btn'>Github</a>
+        <a href={demo} target='_blank'className='btn btn-primary'>Live Demo</a>
         </div>
         
         

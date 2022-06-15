@@ -29,7 +29,7 @@ function About() {
             <article className="about_card">
               <MdLibraryAddCheck className="about__icon" />
               <h5>Projects</h5>
-              <small>Nil</small>
+              <small>02</small>
             </article>
 
             <article className="about_card">
