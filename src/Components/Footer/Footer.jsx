@@ -8,7 +8,11 @@ import {FaLinkedin} from 'react-icons/fa';
 function Footer() {
   return (
    <footer id='footer'>
-    <a href="#" className='footer__logo'>AVISHEKH</a>
+
+<form >
+<button type='submit' className='footer__logo' form action="https://avishekh-portfolio.netlify.app/#about">AVISHEKH</button>
+</form>
+   
 <div className="permalinks">
     <form className='permalinks' >
 
