@@ -24,9 +24,17 @@ function Footer() {
 
     <div className="footer__socials">
 
-<button><a href="https://www.facebook.com/avishekh.jaiswal.9/"><GrFacebookOption /></a></button>
-<button><a href="https://twitter.com/Jaiz_Avi"><AiOutlineTwitter /></a></button>
-<button><a href="https://www.linkedin.com/in/avishek-jaiswal-b4ab31229/"><FaLinkedin /></a></button>
+<form className='socials'>
+         
+<button type='submit' form action="https://www.facebook.com/avishekh.jaiswal.9/"><GrFacebookOption /></button>
+<button type ='submit' form action="https://twitter.com/Jaiz_Avi"><AiOutlineTwitter /></button>
+<button form action="https://twitter.com/Jaiz_Avi"><FaLinkedin /></button>
+         
+         
+         
+        
+      </form>
+
 
 
 </div>

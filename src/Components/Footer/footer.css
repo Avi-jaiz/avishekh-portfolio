@@ -37,22 +37,26 @@ footer,a{
     margin-bottom: 4rem;
 
 }
+.socials{
+    display: flex;
+    flex-direction: row;
+}
 
 .footer__socials button{
-    background: var(--color-white);
+    background: var(--color-primary);
     padding: 0.8rem;
-    color: var(--color-white);
+    color: var(--color-bg);
     border-radius: 0.7rem;
     display: flex;
-    border: 1px solid transparent;
-    font-size: 1rem;
+    border: 1px solid var(--color-bg);
+    font-size:1rem;
 }
 
 .footer__socials button:hover
 {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-white);
+    border-color: var(--color-bg-variant);
     
 }
 
