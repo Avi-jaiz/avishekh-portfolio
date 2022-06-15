@@ -25,7 +25,7 @@ nav a
     color: var(--color-light);
 }
 
-nav a:hover 
+nav button:a 
 {
     background-color: rgba(0,0,0,0.3);
     

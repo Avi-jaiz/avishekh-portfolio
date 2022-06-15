@@ -24,11 +24,10 @@ function Footer() {
 
     <div className="footer__socials">
 
-<a href="https://www.facebook.com/avishekh.jaiswal.9/"><GrFacebookOption /></a>
+<button><a href="https://www.facebook.com/avishekh.jaiswal.9/"><GrFacebookOption /></a></button>
+<button><a href="https://twitter.com/Jaiz_Avi"><AiOutlineTwitter /></a></button>
+<button><a href="https://www.linkedin.com/in/avishek-jaiswal-b4ab31229/"><FaLinkedin /></a></button>
 
-<a href="https://twitter.com/Jaiz_Avi"><AiOutlineTwitter /></a>
-
-<a href="https://www.linkedin.com/in/avishek-jaiswal-b4ab31229/"><FaLinkedin /></a>
 
 </div>
 <div className="footer__copyright">

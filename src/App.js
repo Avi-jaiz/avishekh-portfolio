@@ -18,9 +18,9 @@ useEffect(()=>
 {
    setTimeout(()=>
    {
-setLoad(!load)
+setLoad(false)
    },1000)
-},[]);
+},[load]);
 
   return (
     <>
