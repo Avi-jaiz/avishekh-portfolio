@@ -71,6 +71,8 @@ footer,a{
 .socials{
     display: flex;
     flex-direction: row;
+    gap: 2rem;
+    font-size: 2.5rem;
 }
 
 .footer__socials button{
@@ -128,7 +130,10 @@ footer
   
    
 }
-
+.socials
+{
+    scale: 0.7;
+}
 .footer__logo
 {
     margin-top:1.5rem;
@@ -140,4 +145,18 @@ footer
     margin-bottom: 2.6rem;
 }
 
+}
+
+
+/* media query for max-width 1024px
+*/
+
+@media screen and (max-width:1024px)
+{
+    footer
+    {
+        margin-top: 10rem;
+        
+        
+    }
 }

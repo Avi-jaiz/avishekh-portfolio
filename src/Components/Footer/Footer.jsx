@@ -3,6 +3,7 @@ import './footer.css';
 import {GrFacebookOption} from 'react-icons/gr';
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {FaLinkedin} from 'react-icons/fa';
+import Experience from '../Experience/Experience';
 
 
 function Footer() {
@@ -14,34 +15,36 @@ function Footer() {
 </form>
    
 <div className="permalinks">
-    <form className='permalinks' >
+    
 
-   
-
-
+  
+{/* 
 <button type='submit' form action="#">Home</button>
 <button type='submit' form action="https://avishekh-portfolio.netlify.app/#about">About</button>
 <button type='submit' form action="https://avishekh-portfolio.netlify.app/#experience">Experience</button>
 <button type='submit' form action="https://avishekh-portfolio.netlify.app/#portfolio">Portfolio</button>
-<button type='submit' form action="https://avishekh-portfolio.netlify.app/#contact">contact</button>
+<button type='submit' form action="https://avishekh-portfolio.netlify.app/#contact">contact</button> */}
 
 {/* <li><a href="#contact">Contact</a></li> */}
 
 
-    </form>
+    
     </div>
     <div className="footer__socials">
 
-<form className='socials'>
+<div className='socials'>
          
-<button type='submit' form action="https://www.facebook.com/avishekh.jaiswal.9/"><GrFacebookOption /></button>
-<button type ='submit' form action="https://twitter.com/Jaiz_Avi"><AiOutlineTwitter /></button>
-<button form action="https://twitter.com/Jaiz_Avi"><FaLinkedin /></button>
+<a href="https://www.facebook.com/avishekh.jaiswal.9/" target="_blank" rel="noreferrer"><GrFacebookOption /></a>
+
+<a href="https://twitter.com/Jaiz_Avi" target="_blank" rel="noreferrer"><AiOutlineTwitter /></a>
+
+<a href="https://www.linkedin.com/in/avishek-jaiswal-b4ab31229/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+
          
          
          
         
-      </form>
+      </div>
 
 
 

@@ -4,10 +4,10 @@ import Contact from './Components/Contact/Contact'
 import Experience from './Components/Experience/Experience';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-
 import './index.css';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Loader from './Components/Loader.jsx/Loader';
+import Nav from './Components/Nav/Nav'
 
 
 
@@ -27,7 +27,7 @@ setLoad(false)
 
 {load ? <Loader /> :  <div>
   <Header />
-    {/* <Nav /> */}
+    <Nav />
     <About />
     <Experience />
     {/* <Services /> */}
