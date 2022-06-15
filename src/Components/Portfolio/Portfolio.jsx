@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
-import Example from '../Files/example.jpg';
-import Example2 from '../Files/example2.jpg';
+// import Example from '../Files/example.jpg';
+// import Example2 from '../Files/example2.jpg';
 import portfolio_avi from '../Files/portfolio_avi.png'
 import weather_app from '../Files/weather_app.png'
 
@@ -28,8 +28,8 @@ const data = [
         <h3>{title}</h3>
         
         <div className="portfolio__item-cta">
-        <a href={github} target='_blank'className='btn'>Github</a>
-        <a href={demo} target='_blank'className='btn btn-primary'>Live Demo</a>
+        <a href={github} target='_blank' rel='noopener' className='btn'>Github</a>
+        <a href={demo} target='_blank' rel ='noopener' className='btn btn-primary'>Live Demo</a>
         </div>
         
         
