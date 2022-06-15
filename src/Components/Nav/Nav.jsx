@@ -15,17 +15,30 @@ const [activeNav,SetActiveNav]=useState("#");
 
 
   return (
-    <nav>
 
-      <a href="#" title="Home" onClick={()=>SetActiveNav("#")}className={activeNav==="#" ? 'active':""}><AiOutlineHome /> </a>
 
-<a href="#about" title="About" onClick={()=>SetActiveNav('#about')} className={activeNav==="#about"?"active": ""}><AiOutlineUser /></a>
+    
+      <form className='nav'>
 
-<a href="#experience" title="Experience" onClick={()=>SetActiveNav("#experience")} className={activeNav==="#experience" ? 'active':""}><FiBookOpen /></a>
-<a href="#portfolio" title="Services" onClick={()=>SetActiveNav("#services")} className={activeNav==="#services"? "active" :""} ><RiServiceLine /></a>
-<a href="#contact" title="Contacts" onClick={()=>SetActiveNav("#contacts")} className={activeNav==="#contacts"?"active":""}><AiOutlineContacts /></a>
+<button type ='submit' form action ='#' title="Home" onClick={()=>SetActiveNav("#")}className={activeNav==="#" ? 'active':""}><AiOutlineHome /> </button>
 
-    </nav>
+<button type ='submit' form action ='https://avishekh-portfolio.netlify.app/#about' title="About" onClick={()=>SetActiveNav("about")}className={activeNav==="about" ? 'active':""}><AiOutlineUser /> </button>
+
+<button type ='submit' form action ='https://avishekh-portfolio.netlify.app/#experience' title="Experience" onClick={()=>SetActiveNav("experience")}className={activeNav==="experience" ? 'active':""}><FiBookOpen /> </button>
+
+<button type ='submit' form action ='https://avishekh-portfolio.netlify.app/#portfolio' title="Portfolio" onClick={()=>SetActiveNav("portfolio")}className={activeNav==="portfolio" ? 'active':""}><RiServiceLine /> </button>
+
+<button type ='submit' form action ='https://avishekh-portfolio.netlify.app/#contact' title="Contact" onClick={()=>SetActiveNav("contact")}className={activeNav==="contact" ? 'active':""}><AiOutlineContacts /> </button>
+
+
+
+
+
+</form>
+
+    
+
+
   )
 }
 

@@ -22,12 +22,43 @@ footer,a{
 
 .permalinks
 {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 3rem; */
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+    gap: 1.2rem;
+   
 }
+
+.permalinks , button{
+    color: white;
+    padding: 1.5rem;
+    font-size: 1rem;
+    background: var(--color-primary);
+    font-weight: 400;
+
+}
+
+
+.permalinks , button:hover{
+    color: var(--color-bg);
+   
+
+}
+
+
+
+
+
 
 .footer__socials
 {
@@ -55,7 +86,7 @@ footer,a{
 .footer__socials button:hover
 {
     background: transparent;
-    color: var(--color-white);
+    color: var(--color-bg);
     border-color: var(--color-bg-variant);
     
 }
@@ -88,6 +119,12 @@ footer,a{
 {
     flex-direction: column;
     gap: 1.5rem;
+    
+}
+
+footer
+{
+    margin-top:10rem;
 }
 
 .footer__socials

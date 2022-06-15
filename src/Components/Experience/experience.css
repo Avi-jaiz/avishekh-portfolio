@@ -85,6 +85,7 @@
      {
          gap:1rem;
          
+         
      }
      section{
         height: 110vh;
@@ -95,4 +96,16 @@
          width: 100%;
          padding: 2rem 1rem;
      }
+}
+
+
+/* media query for max-width:300px */
+
+@media screen and (max-width:300px)
+{
+    .experience__container
+    {
+       
+        justify-content: center;
+    }
 }

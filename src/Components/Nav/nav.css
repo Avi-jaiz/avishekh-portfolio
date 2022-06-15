@@ -1,4 +1,7 @@
-nav{
+
+
+
+.nav{
     background: rgba(0,0,0,0.3);
     width: max-content;
     gap:0.8rem;
@@ -11,27 +14,32 @@ nav{
     display: flex;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    display: flex;
+    transform: rotate(-90deg);
     
 
 }
 
 
-nav a
+
+
+.nav button
 {
     background:transparent;
     padding: 0.8rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
+    transform: rotate(90deg);
 }
 
-nav button:a 
+.nav button:hover
 {
     background-color: rgba(0,0,0,0.3);
     
 }
 
-nav a.active{
+.nav button.active{
 background: var(--color-primary);
 color: var(--color-white);
 }
