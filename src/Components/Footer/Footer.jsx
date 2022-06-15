@@ -20,10 +20,10 @@ function Footer() {
 
 
 <button type='submit' form action="#">Home</button>
-<button type='submit' form action="#About">About</button>
-<button type='submit' form action="#experience">Experience</button>
-<button type='submit' form action="#portfolio">Portfolio</button>
-<button type='submit' form action="#contact">contact</button>
+<button type='submit' form action="https://avishekh-portfolio.netlify.app/#about">About</button>
+<button type='submit' form action="https://avishekh-portfolio.netlify.app/#experience">Experience</button>
+<button type='submit' form action="https://avishekh-portfolio.netlify.app/#portfolio">Portfolio</button>
+<button type='submit' form action="https://avishekh-portfolio.netlify.app/#contact">contact</button>
 
 {/* <li><a href="#contact">Contact</a></li> */}
 

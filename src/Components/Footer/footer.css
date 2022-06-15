@@ -1,7 +1,7 @@
 footer
 {
     background: var(--color-primary);
-    padding: 3rem 0;
+    padding: 2rem 0;
     text-align: center;
     font-size:0.9rem;
     margin-top:4rem;
@@ -124,7 +124,15 @@ footer,a{
 
 footer
 {
-    margin-top:10rem;
+    margin-top:15rem;
+  
+   
+}
+
+.footer__logo
+{
+    margin-top:1.5rem;
+    
 }
 
 .footer__socials
