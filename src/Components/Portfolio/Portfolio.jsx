@@ -22,14 +22,14 @@ const data = [
 {data.map(({id,image,title,github,demo})=>(
         <article key={id} className="portfolio__item">
         <div className="portfolio__item-image">
-        <img src={image} alt="portfolio-image" />
+        <img src={image} alt="portfolio-img" />
         
         </div>
         <h3>{title}</h3>
         
         <div className="portfolio__item-cta">
-        <a href={github} target='_blank' rel='noopener' className='btn'>Github</a>
-        <a href={demo} target='_blank' rel ='noopener' className='btn btn-primary'>Live Demo</a>
+        <a href={github} target='_blank' rel='noreferrer' className='btn'>Github</a>
+        <a href={demo} target='_blank' rel ='noreferrer' className='btn btn-primary'>Live Demo</a>
         </div>
         
         

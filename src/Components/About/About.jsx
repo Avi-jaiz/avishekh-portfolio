@@ -14,7 +14,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ProfilePic} alt="pic" />
+            <img src={ProfilePic} alt="avishekh" />
           </div>
         </div>
 
@@ -41,9 +41,7 @@ function About() {
           <p>
             I'm a self taught Front end developer, skilled in HTML, CSS , JavaScript, GIT and React JS. Willingness to learn more and more and apply all my efforts in my work..
           </p>
-          <a href='#contact' className="btn btn-primary">
-            Let's Talk
-          </a>
+        <a href="#contact" className="btn btn-primary">Lets Talk</a>
         </div>
       </div>
     </section>

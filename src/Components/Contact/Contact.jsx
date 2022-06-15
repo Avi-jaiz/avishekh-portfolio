@@ -41,7 +41,7 @@ setMessageSent(true)
   <HiOutlineMail className='contact__option-icon'/>
   <h4>Email</h4>
   <h5>j.avishekh2021@gmail.com</h5>
-  <a href="mailto:j.avishekh2021@gmail.com" target='_blank'>Send a message</a>
+  <a href="mailto:j.avishekh2021@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
 </article>
 
 
@@ -50,7 +50,7 @@ setMessageSent(true)
   <FaFacebookMessenger className='contact__option-icon'/>
   <h4>Messenger</h4>
   <h5>Facebook</h5>
-  <a href="https://m.me/avishekh.jaiswal.9" target="_blank">Send a message</a>
+  <a href="https://m.me/avishekh.jaiswal.9" target="_blank" rel='noreferrer'>Send a message</a>
 </article>
 
 
@@ -59,7 +59,7 @@ setMessageSent(true)
   <BsWhatsapp className='contact__option-icon'/>
   <h4>Whatsapp</h4>
   <h5>+91 8917244494</h5>
-  <a href="https://api.whatsapp.com/send?phone=8917244494" target ='_blank'>Send a message</a>
+  <a href="https://api.whatsapp.com/send?phone=8917244494" target ='_blank' rel='noreferrer'>Send a message</a>
 </article>
 
 </div>
