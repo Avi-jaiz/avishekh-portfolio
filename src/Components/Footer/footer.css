@@ -122,6 +122,7 @@ footer,a{
     flex-direction: column;
     gap: 1.5rem;
     
+    
 }
 
 footer
@@ -160,3 +161,23 @@ footer
         
     }
 }
+ 
+
+@media screen and (max-width:320px)
+{
+    .footer__logo
+    {
+ scale: 0.8;
+ margin-top: 1.2rem;
+ padding: 0.2rem;
+
+    }
+
+    footer
+    {
+        padding: 2.2rem;
+        
+
+    }
+}
+
