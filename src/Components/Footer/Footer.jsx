@@ -11,7 +11,7 @@ function Footer() {
    <footer id='footer'>
 
 <form >
-<button type='submit' className='footer__logo' form action="https://avishekh-portfolio.netlify.app/#about">AVISHEKH</button>
+<button type='submit' className='footer__logo' form action="https://avishekh-portfolio.netlify.app/#">AVISHEKH</button>
 </form>
    
 <div className="permalinks">
