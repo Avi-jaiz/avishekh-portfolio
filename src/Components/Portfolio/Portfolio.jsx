@@ -3,12 +3,17 @@ import './portfolio.css';
 // import Example from '../Files/example.jpg';
 // import Example2 from '../Files/example2.jpg';
 import portfolio_avi from '../Files/portfolio_avi.png'
-import weather_app from '../Files/weather_app.png'
+import weather_app from '../Files/weather_app.png';
+import to_do_app from '../Files/to_do_app.png'
 
 function Portfolio() {
 const data = [
   {id:1,image:portfolio_avi,title:"Portfolio",github:'https://github.com/Avi-jaiz/avishekh-portfolio', demo:"https://avishekh-portfolio.netlify.app/"},
   {id:2,image:weather_app,title:"Weather App",github:'https://github.com/Avi-jaiz/Weather-app', demo:"https://green-weather-app.netlify.app/"},
+
+  {id:3,image:to_do_app,title:"Take Up Note",github:'https://github.com/Avi-jaiz/to-do-react', demo:"https://takeup-note.netlify.app/"},
+
+
  
 ]
 
