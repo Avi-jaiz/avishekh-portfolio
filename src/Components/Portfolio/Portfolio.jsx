@@ -4,7 +4,8 @@ import './portfolio.css';
 // import Example2 from '../Files/example2.jpg';
 import portfolio_avi from '../Files/portfolio_avi.png'
 import weather_app from '../Files/weather_app.png';
-import to_do_app from '../Files/to_do_app.png'
+import to_do_app from '../Files/to_do_app.png';
+import Quiz_app from '../Files/Quiz_app.png'; 
 
 function Portfolio() {
 const data = [
@@ -12,6 +13,8 @@ const data = [
   {id:2,image:weather_app,title:"Weather App",github:'https://github.com/Avi-jaiz/Weather-app', demo:"https://green-weather-app.netlify.app/"},
 
   {id:3,image:to_do_app,title:"Take Up Note",github:'https://github.com/Avi-jaiz/to-do-react', demo:"https://takeup-note.netlify.app/"},
+
+  {id:4,image:Quiz_app,title:"Quiz App",github:'https://github.com/Avi-jaiz/Quiz-App-with-Vanilla-JS', demo:"https://brainyquiz-js.netlify.app/"},
 
 
  
